@@ -42,4 +42,3 @@ simplejson==2.1.1
 south==0.7.2
 uuid==1.30
 django-social-auth==0.5.12
-coverage==3.4
