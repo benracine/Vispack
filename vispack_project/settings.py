@@ -289,3 +289,5 @@ LOGIN_REDIRECT_URL = '/'
 
 # associate user via email
 SOCIAL_AUTH_ASSOCIATE_BY_MAIL = True
+
+FRAMEWORK_TITLE = 'Django'
