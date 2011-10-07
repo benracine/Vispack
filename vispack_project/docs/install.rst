@@ -2,18 +2,8 @@
 Installation
 ============
 
-Do everything listed in this section to get your site up and running locally.  If you run into problems, see the Troubleshooting section.
-
 Pre-requisites
 ==============
-
-Mac OS X 10.6
--------------
-
-Download and install setuptools from http://pypi.python.org/pypi/setuptools.  Setuptools gives you easy_install. Then run the following commands::
-
-    easy_install pip
-    pip install virtualenv
 
 Ubuntu (10+ /  Lucid or Higher)
 --------------------------------
@@ -23,30 +13,6 @@ Install the following::
     sudo apt-get install python-setuptools python-dev libpq-dev
     sudo easy_install pip
     sudo pip install virtualenv
-
-Windows 7
----------
-
-Download and install Python 2.6 or 2.7 using the Windows 32-bit installer from http://www.python.org/download/.  Even if you're on a 64-bit system, 32-bit is recommended (Michael Foord told me this).
-
-Download and install setuptools from http://pypi.python.org/pypi/setuptools.  Setuptools gives you easy_install.
-
-Install MinGW from http://www.mingw.org/.  Add the bin/ directory of your MinGW installation to your PATH environment variable (under Control Panel > System > Advanced system settings > Environment variables).
-
-Create or open C:\\Python26\\Lib\\distutils\\distutils.cfg (Note: this may be inside the Python27 directory if you're using Python 2.7).  Add the following lines to the bottom of the file::
-
-    [build]
-    compiler=mingw32
-
-Open up a command prompt.  Install pip and virtualenv::
-
-    easy_install pip
-    pip install virtualenv
-    
-Other operating systems (including various Linux flavors)
----------------------------------------------------------
-
-No. See the faq_.
 
 Main instructions
 =================
