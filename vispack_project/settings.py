@@ -155,7 +155,6 @@ PREREQ_APPS = [
     "tastypie",
     "reversion",
     "django_sorting",
-    "django_modeler",
 
     # Celery task queue:
     'djcelery',
