@@ -185,7 +185,7 @@ EMAIL_DEBUG = DEBUG
 
 CACHE_TIMEOUT = 60 * 60
 
-ROOT_URLCONF = "django_oc.urls"
+ROOT_URLCONF = "vispack_project.urls"
 
 SECRET_KEY = "CHANGEME"
 
