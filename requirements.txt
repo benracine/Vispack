@@ -1,5 +1,4 @@
 #-e git://github.com/mrj0/django-modeler#egg=django-modeler-0.1.0-dev
---extra-index-url=http://dist.pinaxproject.com/dev/
 celery==2.2.4
 coverage==3.5
 django-ajax-validation==0.1.3
