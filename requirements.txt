@@ -40,4 +40,4 @@ django-social-auth==0.5.12
 # The following must be installed system-wide using the appropriate package manager
 # sudo apt-get install python-psycopg2
 # psycopg2==2.4
-
+psycopg2==2.4.2
