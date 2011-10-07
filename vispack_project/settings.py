@@ -11,9 +11,7 @@ PROJECT_ROOT = os.path.abspath(os.path.dirname(__file__))
 
 DEBUG = False
 TEMPLATE_DEBUG = DEBUG
-
-# serve media through the staticfiles app.
-SERVE_MEDIA = True
+SERVE_MEDIA = DEBUG
 
 INTERNAL_IPS = [
     "127.0.0.1",
